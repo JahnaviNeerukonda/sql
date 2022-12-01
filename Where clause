@@ -1,0 +1,2 @@
+select eno,ename from emp where esal>15000;
+select eno,ename from emp where esal=20000;
