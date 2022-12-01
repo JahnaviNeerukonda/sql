@@ -1,0 +1,9 @@
+set serveroutput on;
+declare
+name varchar2(20);
+begin
+select ename  into name from emp where empno=1;
+exception 
+when no_data_found then
+dbms_output.put_line('No such employe');
+end;
