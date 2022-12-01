@@ -1,0 +1,12 @@
+set serveroutput on;
+declare
+a number(2):=10;
+begin
+loop
+ dbms_output.put_lint(x);
+ x:=x+15;
+ if x>50 then
+      exit;
+     end if;
+    end loop;
+   end;
