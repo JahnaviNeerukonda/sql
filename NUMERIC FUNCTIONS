@@ -1,0 +1,4 @@
+select round(45.926,2);
+select TRUNC(45.926,2);
+select MOD(1600,300);
+select round(501.225,1);
