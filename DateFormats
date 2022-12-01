@@ -1,0 +1,3 @@
+select ENAME,TO_CHAR(HIREDATE,'fmdd Mon YY') AS HIREDATE from EMP;
+
+select TO_DATE('01 JAN 22','DD_MM_YY') from dual;
