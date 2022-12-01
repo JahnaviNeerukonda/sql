@@ -1,0 +1,17 @@
+declare
+ pi number:=3.14;
+ r number(5,2);
+ d number(5,2);
+ cir number(7,2);
+ area number(10,2);
+ begin    
+   r := 9.5;   
+   d := r * 2;   
+   cir := 2.0 * pi * r;  
+   area := pi * r * r;    
+   dbms_output.put_line('Radius: ' || r);  
+   dbms_output.put_line('Diameter: ' || d);  
+   dbms_output.put_line('Circumference: ' || cir);  
+   dbms_output.put_line('Area: ' || area);  
+end;  
+/  
