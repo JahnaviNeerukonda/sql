@@ -1,0 +1,14 @@
+DECLARE 
+   a number(3) := 15; 
+BEGIN 
+   <<loopstart>>  
+   WHILE a < 25 LOOP
+   dbms_output.put_line ('value of a is : ' || a); 
+      a := a + 1; 
+      IF a = 18 THEN 
+         a := a + 1; 
+         GOTO loopstart; 
+      END IF; 
+   END LOOP; 
+END; 
+/
