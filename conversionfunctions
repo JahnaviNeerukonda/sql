@@ -1,0 +1,4 @@
+SELECT last_name,TO_CHAR(hire_date, ’fmDD Month YYYY’) AS HIREDATE FROM emp;
+SELECT last_name, hire_date FROM employees WHERE hire_date = TO_DATE(’May 24, 1999’, ’fxMonth DD, YYYY’);
+select char(sysdate,"MM DD YY") from dual;
+select TODATE('2022/12/01','yyyy/mm/dd') from dual;
