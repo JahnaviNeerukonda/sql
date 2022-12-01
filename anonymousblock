@@ -1,8 +1,9 @@
-set serveroutput on;
+SET SERVEROUTPUT ON;
 DECLARE
-	a NUMBER(2);
-	b NUMBER(2) := 5;
+  counter   NUMBER;
 BEGIN
-	a := b;
-	dbms_output.put_line(a);
+  FOR counter IN REVERSE 0..10 LOOP
+    DBMS_OUTPUT.PUT_LINE (counter);
+  END LOOP;
 END;
+/
