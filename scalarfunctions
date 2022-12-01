@@ -1,0 +1,4 @@
+select avg(esal) from emp;
+select sum(esal) from emp;
+select count(eno) from emp;
+select max(esal) from emp;
