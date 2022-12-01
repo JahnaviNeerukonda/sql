@@ -1,0 +1,7 @@
+create table emp(eno number(4),ename varchar2(20),esal number(6));
+insert into emp values(1,'JOHN',20000);
+insert into emp values(2,'AMAR',25000);
+insert into emp values(3,'ARUN',30000);
+
+select eno,ename from emp where esal between 10000 and 30000;
+select eno,ename from emp where esal in (10000,30000);
