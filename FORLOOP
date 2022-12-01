@@ -1,0 +1,9 @@
+set serveroutput on;
+declare
+   a number(2):=1;
+begin
+for i in 1..20 loop
+   dbms_output.put_line('Value of i: '||a);
+   a:=a+3;
+end loop;
+end;
