@@ -1,0 +1,4 @@
+select eno,ename,esal from emp order by esal desc;
+select eno,ename,esal from emp order by esal asc;
+select eno,ename,esal from emp order by ename;
+select eno,ename,esal from emp order by eno desc;
