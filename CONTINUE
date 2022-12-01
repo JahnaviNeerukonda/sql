@@ -1,0 +1,12 @@
+set serveroutput on;
+declare
+a number(2):=10;
+begin
+while a< 20 loop
+ a:=a+2;
+ if a=14 then 
+    continue;
+ end if;
+ dbms_output.put_line('Value of a :'||a);
+ end loop;
+ end
