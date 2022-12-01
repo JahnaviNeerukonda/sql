@@ -1,0 +1,15 @@
+--single line comments
+SELECT
+id
+--first_name,
+--last_name,
+--date_of_birth
+FROM student order by id desc;
+
+---Multi-line comments
+SELECT
+id
+/*first_name,
+last_name,
+date_of_birth*/
+FROM student order by id desc;
