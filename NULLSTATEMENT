@@ -1,0 +1,11 @@
+declare
+grade char(1):='&new_grd';
+begin
+case grade
+when 'A' then dbms_output.put_line('Your grade is outstanding');
+when 'B' then dbms_output.put_line('Your grade is Excellent');
+when 'C' then dbms_output.put_line('Your grade is Very good');
+else
+NULL;
+end case;
+end;
