@@ -2,3 +2,6 @@ select avg(esal) from emp;
 select sum(esal) from emp;
 select count(eno) from emp;
 select max(esal) from emp;
+select min(esal) from emp;
+select UCASE(ename) from emp;
+select LCASE(ename) from emp;
