@@ -1,0 +1,5 @@
+select sysdate from dual;
+select MONTHS_BETWEEN('29_SEP_22','27_DEC_00') from dual;
+select ADD_MONTHS('01_JAN_2022',2) from dual;
+select NEXT_DAY('01_01_22','FRIDAY') from dual;
+select LAST_DAY('02_01_22') from dual;
