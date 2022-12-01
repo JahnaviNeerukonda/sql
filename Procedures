@@ -1,0 +1,17 @@
+CREATE OR REPLACE PROCEDURE empdept(eno NUMBER)
+IS
+  erec emp%rowtype;
+BEGIN
+  SELECT *
+  INTO erec
+  FROM emp e
+  WHERE e.empno = eno;
+  -- print out contact's information
+  dbms_output.put_line( erec.empno || ' ' ||
+  erec.ename || '=' || eno);
+EXCEPTION
+   WHEN OTHERS THEN
+      dbms_output.put_line( SQLERRM );
+END;
+exec empdept(7369) ;
+
