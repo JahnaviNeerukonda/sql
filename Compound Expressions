@@ -1,0 +1,7 @@
+Order By:
+select EMPNO,ENAME,SAL,DEPTNO ,case when sal<=1000 then 'Low'
+                             when sal>1000 and sal<=1500 then 'Medium'
+                             when sal>1500 then 'High' end Status from EMP where DEPTNO in (10,20) order by DEPTNO desc;
+
+Group By:
+select count(deptid),dname from dept GROUP BY dname
