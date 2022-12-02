@@ -1,0 +1,22 @@
+In SQL, a literal is the same as a constant. We'll cover several types of literals - string, integer, decimal, and datetime literals.
+
+String Literals:
+    'TechOnTheNet.com'
+    'This is a literal'
+    'XYZ'
+    '123'
+    
+ Integer Literals 
+     536
+     +536
+     -536
+     
+Decimal Literals
+    24.7
+    +24.7
+    -24.7
+    
+Datetime Literals
+     'April 30, 2015'
+     '2015/04/30'
+     '2015/04/30 08:34:25'
